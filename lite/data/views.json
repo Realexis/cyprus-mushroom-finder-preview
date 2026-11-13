@@ -1,0 +1,11 @@
+{
+ "version": "Lite",
+ "day0": "2026-11-13",
+ "layers": [
+  {
+   "id": "all",
+   "label": "Growing conditions today",
+   "in_season": true
+  }
+ ]
+}
