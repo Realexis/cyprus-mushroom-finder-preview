@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T12:21+00:00",
+ "generated_utc": "2026-11-13T12:40+00:00",
  "weather_run": "2026-11-13",
  "model": "ecmwf_ifs",
  "days": [
@@ -176,7 +176,17 @@
     "trigger_mm": 15.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Oct-Mar"
+    "season_text": "Oct-Mar",
+    "season_months": [
+     1,
+     2,
+     3,
+     4,
+     9,
+     10,
+     11,
+     12
+    ]
    },
    "bae": {
     "english_name": "bronze bolete / cep",
@@ -191,7 +201,13 @@
      "not_every_year"
     ],
     "autumn_rain_memory": false,
-    "season_text": "Oct-Nov"
+    "season_text": "Oct-Nov",
+    "season_months": [
+     9,
+     10,
+     11,
+     12
+    ]
    },
    "cci": {
     "english_name": "chanterelle",
@@ -204,7 +220,15 @@
     "trigger_mm": 20.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Oct-Jan"
+    "season_text": "Oct-Jan",
+    "season_months": [
+     1,
+     2,
+     9,
+     10,
+     11,
+     12
+    ]
    },
    "cco": {
     "english_name": "shaggy ink cap",
@@ -217,7 +241,17 @@
     "trigger_mm": 15.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Nov-Apr"
+    "season_text": "Nov-Apr",
+    "season_months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     10,
+     11,
+     12
+    ]
    },
    "lde": {
     "english_name": "red pine mushroom",
@@ -232,7 +266,16 @@
      "young_stand_bonus"
     ],
     "autumn_rain_memory": false,
-    "season_text": "Oct-Feb"
+    "season_text": "Oct-Feb",
+    "season_months": [
+     1,
+     2,
+     3,
+     9,
+     10,
+     11,
+     12
+    ]
    },
    "lnu": {
     "english_name": "wood blewit",
@@ -245,7 +288,15 @@
     "trigger_mm": 20.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Nov-Feb"
+    "season_text": "Nov-Feb",
+    "season_months": [
+     1,
+     2,
+     3,
+     10,
+     11,
+     12
+    ]
    },
    "lsa": {
     "english_name": "bloody milk cap",
@@ -258,7 +309,14 @@
     "trigger_mm": 20.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Sep-Nov"
+    "season_text": "Sep-Nov",
+    "season_months": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
    },
    "mor": {
     "english_name": "morels",
@@ -271,7 +329,13 @@
     "trigger_mm": 15.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Feb-Apr"
+    "season_text": "Feb-Apr",
+    "season_months": [
+     2,
+     3,
+     4,
+     5
+    ]
    },
    "pfe": {
     "english_name": "fennel king oyster",
@@ -286,7 +350,18 @@
      "humidity"
     ],
     "autumn_rain_memory": false,
-    "season_text": "Oct-Apr"
+    "season_text": "Oct-Apr",
+    "season_months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     9,
+     10,
+     11,
+     12
+    ]
    },
    "rde": {
     "english_name": "white brittlegill",
@@ -301,7 +376,13 @@
      "warm_spell"
     ],
     "autumn_rain_memory": false,
-    "season_text": "Sep-Oct"
+    "season_text": "Sep-Oct",
+    "season_months": [
+     8,
+     9,
+     10,
+     11
+    ]
    },
    "slu": {
     "english_name": "slippery Jack",
@@ -314,7 +395,16 @@
     "trigger_mm": 20.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Oct-Feb"
+    "season_text": "Oct-Feb",
+    "season_months": [
+     1,
+     2,
+     3,
+     9,
+     10,
+     11,
+     12
+    ]
    },
    "tca": {
     "english_name": "matsutake",
@@ -329,7 +419,14 @@
      "temperature_drop"
     ],
     "autumn_rain_memory": false,
-    "season_text": "Nov-Jan"
+    "season_text": "Nov-Jan",
+    "season_months": [
+     1,
+     2,
+     10,
+     11,
+     12
+    ]
    },
    "ter": {
     "english_name": "desert truffle",
@@ -344,7 +441,13 @@
      "autumn_rain_memory"
     ],
     "autumn_rain_memory": true,
-    "season_text": "Feb-Mar"
+    "season_text": "Feb-Mar",
+    "season_months": [
+     1,
+     2,
+     3,
+     4
+    ]
    },
    "xer": {
     "english_name": "yellow and red cracked boletes",
@@ -357,7 +460,13 @@
     "trigger_mm": 20.0,
     "unused_cues": [],
     "autumn_rain_memory": false,
-    "season_text": "Oct-Nov"
+    "season_text": "Oct-Nov",
+    "season_months": [
+     9,
+     10,
+     11,
+     12
+    ]
    }
   },
   "states": [
