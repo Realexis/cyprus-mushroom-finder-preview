@@ -68,12 +68,6 @@
    "tier": "more"
   },
   {
-   "id": "cci",
-   "label": "chanterelle · Cantharellus cibarius / subpruinosus · rare",
-   "in_season": true,
-   "tier": "more"
-  },
-  {
    "id": "rde",
    "label": "milk-white brittlegill · Russula delica · Sep-Oct",
    "in_season": false,

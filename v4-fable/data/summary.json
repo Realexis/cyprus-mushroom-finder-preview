@@ -4,7 +4,7 @@
  "how_to_read": "Scores 0-100 = how good GROWING CONDITIONS are in ~2 km forest zones. v0.3: for each species, habitat x water x temperature x mushroom clock x a season factor, multiplied, so one poor part makes the score poor. The general score is the best species here that is in season that day. It never says a mushroom is there, and never says anything about eating one. Nature reserves are closed and never listed. Each zone's confidence says how much its score needs rain that has not fallen yet: high = it holds on rain that already fell, medium = partly forecast rain, low = mostly forecast rain. Picking rules: no rakes or tools; pick by hand or knife; put the leaf litter back.",
  "emergency": "Poisoning: call 112. Cyprus Poison Centre: 1401. Do not wait for symptoms.",
  "weather_run": "2026-11-13",
- "generated_utc": "2026-11-13T15:54+00:00",
+ "generated_utc": "2026-11-13T16:03+00:00",
  "site": "https://realexis.github.io/cyprus-mushroom-finder/",
  "days": [
   {
@@ -246,37 +246,6 @@
        "lat": 34.9396,
        "lon": 33.1905,
        "score": 56,
-       "confidence": "high"
-      }
-     ]
-    },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "2 km SE of Prodromos",
-       "spot": 1646,
-       "lat": 34.9379,
-       "lon": 32.8444,
-       "score": 80,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km NE of Kannavia",
-       "spot": 1514,
-       "lat": 35.0027,
-       "lon": 32.998,
-       "score": 61,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km NE of Ayios Konstantinos",
-       "spot": 1366,
-       "lat": 34.8904,
-       "lon": 33.0824,
-       "score": 58,
        "confidence": "high"
       }
      ]
@@ -866,37 +835,6 @@
       }
      ]
     },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "2 km SE of Prodromos",
-       "spot": 1646,
-       "lat": 34.9379,
-       "lon": 32.8444,
-       "score": 80,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km NE of Ayios Konstantinos",
-       "spot": 1366,
-       "lat": 34.8904,
-       "lon": 33.0824,
-       "score": 58,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km N of Kannavia",
-       "spot": 1520,
-       "lat": 35.0059,
-       "lon": 32.9696,
-       "score": 56,
-       "confidence": "high"
-      }
-     ]
-    },
     "cco": {
      "label": "good conditions for Coprinus comatus (shaggy ink cap) habitat",
      "in_season": true,
@@ -1481,37 +1419,6 @@
       }
      ]
     },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "2 km SE of Prodromos",
-       "spot": 1646,
-       "lat": 34.9379,
-       "lon": 32.8444,
-       "score": 74,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km NE of Ayios Konstantinos",
-       "spot": 1366,
-       "lat": 34.8904,
-       "lon": 33.0824,
-       "score": 57,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km N of Kannavia",
-       "spot": 1520,
-       "lat": 35.0059,
-       "lon": 32.9696,
-       "score": 50,
-       "confidence": "high"
-      }
-     ]
-    },
     "cco": {
      "label": "good conditions for Coprinus comatus (shaggy ink cap) habitat",
      "in_season": true,
@@ -2092,37 +1999,6 @@
        "lat": 34.9809,
        "lon": 33.0092,
        "score": 47,
-       "confidence": "high"
-      }
-     ]
-    },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "2 km SE of Prodromos",
-       "spot": 1646,
-       "lat": 34.9379,
-       "lon": 32.8444,
-       "score": 64,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km NE of Ayios Konstantinos",
-       "spot": 1366,
-       "lat": 34.8904,
-       "lon": 33.0824,
-       "score": 54,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km N of Kannavia",
-       "spot": 1520,
-       "lat": 35.0059,
-       "lon": 32.9696,
-       "score": 48,
        "confidence": "high"
       }
      ]
@@ -2712,37 +2588,6 @@
       }
      ]
     },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "3 km E of Prodromos",
-       "spot": 1644,
-       "lat": 34.9565,
-       "lon": 32.8615,
-       "score": 55,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km NE of Ayios Konstantinos",
-       "spot": 1366,
-       "lat": 34.8904,
-       "lon": 33.0824,
-       "score": 49,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km N of Kannavia",
-       "spot": 1520,
-       "lat": 35.0059,
-       "lon": 32.9696,
-       "score": 43,
-       "confidence": "high"
-      }
-     ]
-    },
     "cco": {
      "label": "good conditions for Coprinus comatus (shaggy ink cap) habitat",
      "in_season": true,
@@ -3321,37 +3166,6 @@
        "lat": 35.0564,
        "lon": 32.7028,
        "score": 40,
-       "confidence": "high"
-      }
-     ]
-    },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "1 km NW of Troodos",
-       "spot": 1640,
-       "lat": 34.9347,
-       "lon": 32.8728,
-       "score": 50,
-       "confidence": "high"
-      },
-      {
-       "where": "3 km NE of Oikos",
-       "spot": 1525,
-       "lat": 35.0187,
-       "lon": 32.8561,
-       "score": 49,
-       "confidence": "medium"
-      },
-      {
-       "where": "2 km W of Dierona",
-       "spot": 1338,
-       "lat": 34.8282,
-       "lon": 33.0876,
-       "score": 44,
        "confidence": "high"
       }
      ]
@@ -3936,37 +3750,6 @@
       }
      ]
     },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "2 km SE of Prodromos",
-       "spot": 1646,
-       "lat": 34.9379,
-       "lon": 32.8444,
-       "score": 68,
-       "confidence": "medium"
-      },
-      {
-       "where": "5 km W of Mylikouri",
-       "spot": 1280,
-       "lat": 34.9537,
-       "lon": 32.7025,
-       "score": 60,
-       "confidence": "low"
-      },
-      {
-       "where": "1 km S of Amiantos",
-       "spot": 1370,
-       "lat": 34.9065,
-       "lon": 32.9407,
-       "score": 60,
-       "confidence": "medium"
-      }
-     ]
-    },
     "cco": {
      "label": "good conditions for Coprinus comatus (shaggy ink cap) habitat",
      "in_season": true,
@@ -4544,37 +4327,6 @@
        "spot": 1251,
        "lat": 34.8947,
        "lon": 32.6796,
-       "score": 60,
-       "confidence": "low"
-      }
-     ]
-    },
-    "cci": {
-     "label": "good conditions for Cantharellus cibarius / subpruinosus (chanterelle) habitat",
-     "in_season": true,
-     "season": "Oct-Jan",
-     "top_zones": [
-      {
-       "where": "2 km SE of Prodromos",
-       "spot": 1646,
-       "lat": 34.9379,
-       "lon": 32.8444,
-       "score": 64,
-       "confidence": "medium"
-      },
-      {
-       "where": "2 km W of Dierona",
-       "spot": 1338,
-       "lat": 34.8282,
-       "lon": 33.0876,
-       "score": 61,
-       "confidence": "medium"
-      },
-      {
-       "where": "1 km S of Amiantos",
-       "spot": 1370,
-       "lat": 34.9065,
-       "lon": 32.9407,
        "score": 60,
        "confidence": "low"
       }
