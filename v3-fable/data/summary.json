@@ -4,7 +4,7 @@
  "how_to_read": "Scores 0-100 = how good GROWING CONDITIONS are (rain, temperature, soil moisture, season for the altitude, shade) in ~2 km forest zones. It never says a mushroom is there, and never says anything about eating one. Nature reserves are closed and never listed. Confidence: high = days 0-2, medium = 3-4, low = 5+ (forecast). Picking rules: no rakes or tools; pick by hand or knife; put the leaf litter back.",
  "emergency": "Poisoning: call 112. Cyprus Poison Centre: 1401. Do not wait for symptoms.",
  "weather_run": "2026-11-13",
- "generated_utc": "2026-11-13T12:21+00:00",
+ "generated_utc": "2026-11-13T12:35+00:00",
  "site": "https://realexis.github.io/cyprus-mushroom-finder/",
  "days": [
   {
@@ -12,8 +12,8 @@
    "weekday": "Friday",
    "confidence": "high",
    "island": {
-    "median_score": 68,
-    "zones_70_plus": 347,
+    "median_score": 62,
+    "zones_70_plus": 304,
     "zones_total": 706
    },
    "top_zones": [
@@ -39,7 +39,9 @@
       "t7_mean_c": 18.8,
       "soil_percentile": 100.0,
       "frost_days": 0.0,
-      "rain3_max_mm": 31.5
+      "rain3_max_mm": 31.5,
+      "gate_pct": 100.0,
+      "rain3_age_d": 15.0
      },
      "factors_0_to_1": {
       "rain_total": 1.0,
@@ -52,107 +54,6 @@
     },
     {
      "rank": 2,
-     "where": "3 km NE of Lagoudera",
-     "spot": 828,
-     "lat": 34.9777,
-     "lon": 33.0376,
-     "score": 87,
-     "why": "Good: 10 °C average this week; soil wetter than 94% of last season; 72 mm rain in 30 days; 21 mm soaking rain 7-20 days ago.",
-     "mushroom_clock": "Last soaking rain was 28 days ago. Fruiting window has closed.",
-     "trees": {
-      "Calabrian pine (likely)": 0.87,
-      "Golden oak (likely)": 0.11
-     },
-     "altitude_m": [
-      671,
-      1221
-     ],
-     "inputs": {
-      "rain_30d_mm": 72.3,
-      "pulse_mm": 20.5,
-      "t7_mean_c": 10.3,
-      "soil_percentile": 94.4,
-      "frost_days": 0.0,
-      "rain3_max_mm": 28.0
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.87,
-      "rain_pulse": 0.7,
-      "temperature": 1.0,
-      "soil_moisture": 1.0,
-      "season_altitude": 1.0,
-      "shade": 0.4
-     }
-    },
-    {
-     "rank": 3,
-     "where": "1 km S of Agios Theodoros Soleas",
-     "spot": 765,
-     "lat": 35.0309,
-     "lon": 32.93,
-     "score": 86,
-     "why": "Good: 13 °C average this week; soil wetter than 95% of last season; 77 mm rain in 30 days. Weak: shady slopes and valleys.",
-     "mushroom_clock": "Last soaking rain was 28 days ago. Fruiting window has closed.",
-     "trees": {
-      "Calabrian pine (likely)": 0.99
-     },
-     "altitude_m": [
-      456,
-      818
-     ],
-     "inputs": {
-      "rain_30d_mm": 77.4,
-      "pulse_mm": 18.1,
-      "t7_mean_c": 12.7,
-      "soil_percentile": 95.1,
-      "frost_days": 0.0,
-      "rain3_max_mm": 31.7
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.96,
-      "rain_pulse": 0.54,
-      "temperature": 1.0,
-      "soil_moisture": 1.0,
-      "season_altitude": 1.0,
-      "shade": 0.38
-     }
-    },
-    {
-     "rank": 4,
-     "where": "4 km S of Tsakistra",
-     "spot": 482,
-     "lat": 34.9942,
-     "lon": 32.7083,
-     "score": 85,
-     "why": "Good: 10 °C average this week; soil wetter than 88% of last season; shady slopes and valleys; 20 mm soaking rain 7-20 days ago; 59 mm rain in 30 days.",
-     "mushroom_clock": "Last soaking rain was 27 days ago. Fruiting window has closed.",
-     "trees": {
-      "Calabrian pine (likely)": 0.1,
-      "Golden oak (likely)": 0.9
-     },
-     "altitude_m": [
-      771,
-      983
-     ],
-     "inputs": {
-      "rain_30d_mm": 59.0,
-      "pulse_mm": 19.9,
-      "t7_mean_c": 10.2,
-      "soil_percentile": 88.2,
-      "frost_days": 0.0,
-      "rain3_max_mm": 22.7
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.65,
-      "rain_pulse": 0.66,
-      "temperature": 1.0,
-      "soil_moisture": 1.0,
-      "season_altitude": 1.0,
-      "shade": 0.68
-     }
-    },
-    {
-     "rank": 5,
      "where": "2 km SW of Pentalia",
      "spot": 562,
      "lat": 34.8418,
@@ -175,7 +76,9 @@
       "t7_mean_c": 13.8,
       "soil_percentile": 77.4,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.6
+      "rain3_max_mm": 25.6,
+      "gate_pct": 100.0,
+      "rain3_age_d": 15.0
      },
      "factors_0_to_1": {
       "rain_total": 0.58,
@@ -184,6 +87,115 @@
       "soil_moisture": 0.96,
       "season_altitude": 1.0,
       "shade": 0.39
+     }
+    },
+    {
+     "rank": 3,
+     "where": "4 km S of Tsakistra",
+     "spot": 482,
+     "lat": 34.9942,
+     "lon": 32.7083,
+     "score": 84,
+     "why": "Good: 10 °C average this week; soil wetter than 88% of last season; shady slopes and valleys; 20 mm soaking rain 7-20 days ago; 59 mm rain in 30 days.",
+     "mushroom_clock": "Last soaking rain was 27 days ago. Fruiting window has closed.",
+     "trees": {
+      "Calabrian pine (likely)": 0.1,
+      "Golden oak (likely)": 0.9
+     },
+     "altitude_m": [
+      771,
+      983
+     ],
+     "inputs": {
+      "rain_30d_mm": 59.0,
+      "pulse_mm": 19.9,
+      "t7_mean_c": 10.2,
+      "soil_percentile": 88.2,
+      "frost_days": 0.0,
+      "rain3_max_mm": 19.9,
+      "gate_pct": 99.5,
+      "rain3_age_d": 14.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.65,
+      "rain_pulse": 0.66,
+      "temperature": 1.0,
+      "soil_moisture": 1.0,
+      "season_altitude": 1.0,
+      "shade": 0.68
+     }
+    },
+    {
+     "rank": 4,
+     "where": "1 km N of Omodos",
+     "spot": 870,
+     "lat": 34.8602,
+     "lon": 32.8043,
+     "score": 84,
+     "why": "Good: 11 °C average this week; soil wetter than 80% of last season; 23 mm soaking rain 7-20 days ago.",
+     "mushroom_clock": "Soaking rain 13 days ago. Window OPEN — about 7 more days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.18,
+      "Golden oak (likely)": 0.18,
+      "Other broadleaf": 0.41,
+      "Burned forest, recent fire": 0.24
+     },
+     "altitude_m": [
+      830,
+      990
+     ],
+     "inputs": {
+      "rain_30d_mm": 52.3,
+      "pulse_mm": 23.3,
+      "t7_mean_c": 11.3,
+      "soil_percentile": 79.9,
+      "frost_days": 0.0,
+      "rain3_max_mm": 23.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 14.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.54,
+      "rain_pulse": 0.88,
+      "temperature": 1.0,
+      "soil_moisture": 0.99,
+      "season_altitude": 1.0,
+      "shade": 0.5
+     }
+    },
+    {
+     "rank": 5,
+     "where": "2 km SW of Ampelikou",
+     "spot": 494,
+     "lat": 35.1091,
+     "lon": 32.7826,
+     "score": 84,
+     "why": "Good: 14 °C average this week; soil wetter than 94% of last season; 22 mm soaking rain 7-20 days ago; 57 mm rain in 30 days.",
+     "mushroom_clock": "Soaking rain 15 days ago. Window OPEN — about 5 more days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.98
+     },
+     "altitude_m": [
+      167,
+      608
+     ],
+     "inputs": {
+      "rain_30d_mm": 56.8,
+      "pulse_mm": 21.7,
+      "t7_mean_c": 14.0,
+      "soil_percentile": 94.1,
+      "frost_days": 0.0,
+      "rain3_max_mm": 21.7,
+      "gate_pct": 100.0,
+      "rain3_age_d": 15.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.61,
+      "rain_pulse": 0.78,
+      "temperature": 1.0,
+      "soil_moisture": 1.0,
+      "season_altitude": 1.0,
+      "shade": 0.47
      }
     }
    ],
@@ -201,18 +213,18 @@
        "score": 89
       },
       {
-       "where": "3 km NE of Lagoudera",
-       "spot": 828,
-       "lat": 34.9777,
-       "lon": 33.0376,
-       "score": 87
+       "where": "2 km SW of Pentalia",
+       "spot": 562,
+       "lat": 34.8418,
+       "lon": 32.5999,
+       "score": 85
       },
       {
-       "where": "1 km S of Agios Theodoros Soleas",
-       "spot": 765,
-       "lat": 35.0309,
-       "lon": 32.93,
-       "score": 86
+       "where": "4 km S of Tsakistra",
+       "spot": 482,
+       "lat": 34.9942,
+       "lon": 32.7083,
+       "score": 84
       }
      ]
     },
@@ -222,13 +234,6 @@
      "season": "Sep-Nov",
      "top_zones": [
       {
-       "where": "Lagoudera",
-       "spot": 646,
-       "lat": 34.9591,
-       "lon": 33.0205,
-       "score": 82
-      },
-      {
        "where": "2 km N of Moniatis",
        "spot": 857,
        "lat": 34.8911,
@@ -236,11 +241,18 @@
        "score": 80
       },
       {
-       "where": "8 km W of Tsakistra",
-       "spot": 475,
-       "lat": 35.0223,
-       "lon": 32.6401,
-       "score": 80
+       "where": "5 km W of Tsakistra",
+       "spot": 469,
+       "lat": 35.0191,
+       "lon": 32.6685,
+       "score": 79
+      },
+      {
+       "where": "Lagoudera",
+       "spot": 646,
+       "lat": 34.9591,
+       "lon": 33.0205,
+       "score": 77
       }
      ]
     },
@@ -256,25 +268,25 @@
      "season": "Nov-Jan",
      "top_zones": [
       {
-       "where": "3 km NE of Lagoudera",
-       "spot": 828,
-       "lat": 34.9777,
-       "lon": 33.0376,
-       "score": 87
-      },
-      {
-       "where": "1 km S of Agios Theodoros Soleas",
-       "spot": 765,
-       "lat": 35.0309,
-       "lon": 32.93,
-       "score": 85
-      },
-      {
        "where": "4 km S of Tsakistra",
        "spot": 482,
        "lat": 34.9942,
        "lon": 32.7083,
-       "score": 85
+       "score": 84
+      },
+      {
+       "where": "1 km N of Omodos",
+       "spot": 870,
+       "lat": 34.8602,
+       "lon": 32.8043,
+       "score": 84
+      },
+      {
+       "where": "8 km N of Pano Panagia",
+       "spot": 564,
+       "lat": 34.985,
+       "lon": 32.6059,
+       "score": 83
       }
      ]
     },
@@ -297,18 +309,18 @@
        "score": 89
       },
       {
-       "where": "3 km NE of Lagoudera",
-       "spot": 828,
-       "lat": 34.9777,
-       "lon": 33.0376,
-       "score": 87
+       "where": "2 km SW of Pentalia",
+       "spot": 562,
+       "lat": 34.8418,
+       "lon": 32.5999,
+       "score": 85
       },
       {
-       "where": "1 km S of Agios Theodoros Soleas",
-       "spot": 765,
-       "lat": 35.0309,
-       "lon": 32.93,
-       "score": 86
+       "where": "1 km N of Platanistasa",
+       "spot": 824,
+       "lat": 34.9559,
+       "lon": 33.0488,
+       "score": 84
       }
      ]
     }
@@ -319,8 +331,8 @@
    "weekday": "Saturday",
    "confidence": "high",
    "island": {
-    "median_score": 61,
-    "zones_70_plus": 270,
+    "median_score": 60,
+    "zones_70_plus": 259,
     "zones_total": 706
    },
    "top_zones": [
@@ -346,7 +358,9 @@
       "t7_mean_c": 11.3,
       "soil_percentile": 90.3,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.3
+      "rain3_max_mm": 25.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 7.0
      },
      "factors_0_to_1": {
       "rain_total": 0.7,
@@ -379,7 +393,9 @@
       "t7_mean_c": 18.9,
       "soil_percentile": 100.0,
       "frost_days": 0.0,
-      "rain3_max_mm": 31.5
+      "rain3_max_mm": 31.5,
+      "gate_pct": 100.0,
+      "rain3_age_d": 16.0
      },
      "factors_0_to_1": {
       "rain_total": 0.69,
@@ -392,40 +408,6 @@
     },
     {
      "rank": 3,
-     "where": "1 km N of Platanistasa",
-     "spot": 824,
-     "lat": 34.9559,
-     "lon": 33.0488,
-     "score": 82,
-     "why": "Good: 11 °C average this week; soil wetter than 83% of last season; 22 mm soaking rain 7-20 days ago. Weak: shady slopes and valleys.",
-     "mushroom_clock": "Soaking rain 7 days ago. Window opens in 10 days.",
-     "trees": {
-      "Calabrian pine (likely)": 0.63,
-      "Golden oak (likely)": 0.37
-     },
-     "altitude_m": [
-      724,
-      1130
-     ],
-     "inputs": {
-      "rain_30d_mm": 53.5,
-      "pulse_mm": 22.5,
-      "t7_mean_c": 10.6,
-      "soil_percentile": 83.0,
-      "frost_days": 0.0,
-      "rain3_max_mm": 22.5
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.56,
-      "rain_pulse": 0.83,
-      "temperature": 1.0,
-      "soil_moisture": 0.98,
-      "season_altitude": 1.0,
-      "shade": 0.4
-     }
-    },
-    {
-     "rank": 4,
      "where": "1 km N of Omodos",
      "spot": 870,
      "lat": 34.8602,
@@ -449,7 +431,9 @@
       "t7_mean_c": 11.7,
       "soil_percentile": 78.2,
       "frost_days": 0.0,
-      "rain3_max_mm": 23.3
+      "rain3_max_mm": 23.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 15.0
      },
      "factors_0_to_1": {
       "rain_total": 0.4,
@@ -461,7 +445,7 @@
      }
     },
     {
-     "rank": 5,
+     "rank": 4,
      "where": "4 km E of Statos-Agios Photios",
      "spot": 552,
      "lat": 34.876,
@@ -483,7 +467,9 @@
       "t7_mean_c": 14.2,
       "soil_percentile": 77.8,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.8
+      "rain3_max_mm": 25.8,
+      "gate_pct": 100.0,
+      "rain3_age_d": 16.0
      },
      "factors_0_to_1": {
       "rain_total": 0.37,
@@ -492,6 +478,42 @@
       "soil_moisture": 0.96,
       "season_altitude": 1.0,
       "shade": 0.37
+     }
+    },
+    {
+     "rank": 5,
+     "where": "Kannavia",
+     "spot": 774,
+     "lat": 34.9841,
+     "lon": 32.9809,
+     "score": 80,
+     "why": "Good: 11 °C average this week; soil wetter than 79% of last season; 21 mm soaking rain 7-20 days ago.",
+     "mushroom_clock": "Soaking rain 7 days ago. Window opens in 10 days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.79,
+      "Golden oak (likely)": 0.21
+     },
+     "altitude_m": [
+      689,
+      961
+     ],
+     "inputs": {
+      "rain_30d_mm": 53.1,
+      "pulse_mm": 20.7,
+      "t7_mean_c": 11.5,
+      "soil_percentile": 78.7,
+      "frost_days": 0.0,
+      "rain3_max_mm": 20.5,
+      "gate_pct": 98.7,
+      "rain3_age_d": 7.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.55,
+      "rain_pulse": 0.71,
+      "temperature": 1.0,
+      "soil_moisture": 0.96,
+      "season_altitude": 1.0,
+      "shade": 0.47
      }
     }
    ],
@@ -514,68 +536,6 @@
        "lat": 35.6582,
        "lon": 34.5286,
        "score": 83
-      },
-      {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
-      }
-     ]
-    },
-    "lsa": {
-     "label": "good conditions for Lactarius sanguifluus (bloody milk cap) habitat",
-     "in_season": true,
-     "season": "Sep-Nov",
-     "top_zones": [
-      {
-       "where": "Lagoudera",
-       "spot": 646,
-       "lat": 34.9591,
-       "lon": 33.0205,
-       "score": 78
-      },
-      {
-       "where": "2 km N of Moniatis",
-       "spot": 857,
-       "lat": 34.8911,
-       "lon": 32.8952,
-       "score": 77
-      },
-      {
-       "where": "8 km W of Tsakistra",
-       "spot": 475,
-       "lat": 35.0223,
-       "lon": 32.6401,
-       "score": 75
-      }
-     ]
-    },
-    "rde": {
-     "label": "good conditions for Russula delica (milk-white brittlegill) habitat",
-     "in_season": false,
-     "season": "Sep-Oct",
-     "top_zones": []
-    },
-    "tca": {
-     "label": "good conditions for Tricholoma caligatum (matsutake) habitat",
-     "in_season": true,
-     "season": "Nov-Jan",
-     "top_zones": [
-      {
-       "where": "2 km W of Dierona",
-       "spot": 623,
-       "lat": 34.8282,
-       "lon": 33.0876,
-       "score": 88
-      },
-      {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
       },
       {
        "where": "1 km N of Omodos",
@@ -586,270 +546,24 @@
       }
      ]
     },
-    "mor": {
-     "label": "good conditions for Morchella esculenta / elata (morels) habitat",
-     "in_season": false,
-     "season": "Feb-Apr",
-     "top_zones": []
-    },
-    "slu": {
-     "label": "good conditions for Suillus luteus (slippery Jack) habitat",
-     "in_season": true,
-     "season": "Oct-Feb",
-     "top_zones": [
-      {
-       "where": "2 km W of Dierona",
-       "spot": 623,
-       "lat": 34.8282,
-       "lon": 33.0876,
-       "score": 88
-      },
-      {
-       "where": "15 km NE of Rizokarpaso",
-       "spot": 35,
-       "lat": 35.6582,
-       "lon": 34.5286,
-       "score": 83
-      },
-      {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 83
-      }
-     ]
-    }
-   }
-  },
-  {
-   "date": "2026-11-15",
-   "weekday": "Sunday",
-   "confidence": "high",
-   "island": {
-    "median_score": 60,
-    "zones_70_plus": 264,
-    "zones_total": 706
-   },
-   "top_zones": [
-    {
-     "rank": 1,
-     "where": "2 km W of Dierona",
-     "spot": 623,
-     "lat": 34.8282,
-     "lon": 33.0876,
-     "score": 88,
-     "why": "Good: 25 mm soaking rain 7-20 days ago; 12 °C average this week; soil wetter than 85% of last season; 62 mm rain in 30 days. Weak: shady slopes and valleys.",
-     "mushroom_clock": "Soaking rain 8 days ago. Window opens in 10 days.",
-     "trees": {
-      "Calabrian pine (likely)": 0.96
-     },
-     "altitude_m": [
-      469,
-      852
-     ],
-     "inputs": {
-      "rain_30d_mm": 61.9,
-      "pulse_mm": 25.3,
-      "t7_mean_c": 11.9,
-      "soil_percentile": 84.5,
-      "frost_days": 0.0,
-      "rain3_max_mm": 25.3
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.7,
-      "rain_pulse": 1.0,
-      "temperature": 1.0,
-      "soil_moisture": 1.0,
-      "season_altitude": 1.0,
-      "shade": 0.39
-     }
-    },
-    {
-     "rank": 2,
-     "where": "1 km N of Platanistasa",
-     "spot": 824,
-     "lat": 34.9559,
-     "lon": 33.0488,
-     "score": 81,
-     "why": "Good: 11 °C average this week; soil wetter than 81% of last season; 22 mm soaking rain 7-20 days ago. Weak: shady slopes and valleys.",
-     "mushroom_clock": "Soaking rain 8 days ago. Window opens in 9 days.",
-     "trees": {
-      "Calabrian pine (likely)": 0.63,
-      "Golden oak (likely)": 0.37
-     },
-     "altitude_m": [
-      724,
-      1130
-     ],
-     "inputs": {
-      "rain_30d_mm": 51.3,
-      "pulse_mm": 22.5,
-      "t7_mean_c": 11.3,
-      "soil_percentile": 81.2,
-      "frost_days": 0.0,
-      "rain3_max_mm": 22.5
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.52,
-      "rain_pulse": 0.83,
-      "temperature": 1.0,
-      "soil_moisture": 0.97,
-      "season_altitude": 1.0,
-      "shade": 0.4
-     }
-    },
-    {
-     "rank": 3,
-     "where": "4 km E of Statos-Agios Photios",
-     "spot": 552,
-     "lat": 34.876,
-     "lon": 32.6625,
-     "score": 80,
-     "why": "Good: 15 °C average this week; 26 mm soaking rain 7-20 days ago; soil wetter than 77% of last season. Weak: 42 mm rain in 30 days; shady slopes and valleys.",
-     "mushroom_clock": "Soaking rain 17 days ago. Window OPEN — about 3 more days.",
-     "trees": {
-      "Calabrian pine (likely)": 0.58,
-      "Other broadleaf": 0.42
-     },
-     "altitude_m": [
-      277,
-      533
-     ],
-     "inputs": {
-      "rain_30d_mm": 41.9,
-      "pulse_mm": 25.8,
-      "t7_mean_c": 14.5,
-      "soil_percentile": 76.8,
-      "frost_days": 0.0,
-      "rain3_max_mm": 25.8
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.37,
-      "rain_pulse": 0.98,
-      "temperature": 1.0,
-      "soil_moisture": 0.95,
-      "season_altitude": 1.0,
-      "shade": 0.37
-     }
-    },
-    {
-     "rank": 4,
-     "where": "1 km N of Omodos",
-     "spot": 870,
-     "lat": 34.8602,
-     "lon": 32.8043,
-     "score": 80,
-     "why": "Good: 12 °C average this week; soil wetter than 76% of last season; 23 mm soaking rain 7-20 days ago. Weak: 42 mm rain in 30 days.",
-     "mushroom_clock": "Soaking rain 15 days ago. Window OPEN — about 5 more days.",
-     "trees": {
-      "Calabrian pine (likely)": 0.18,
-      "Golden oak (likely)": 0.18,
-      "Other broadleaf": 0.41,
-      "Burned forest, recent fire": 0.24
-     },
-     "altitude_m": [
-      830,
-      990
-     ],
-     "inputs": {
-      "rain_30d_mm": 42.5,
-      "pulse_mm": 23.3,
-      "t7_mean_c": 12.3,
-      "soil_percentile": 76.0,
-      "frost_days": 0.0,
-      "rain3_max_mm": 23.3
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.37,
-      "rain_pulse": 0.88,
-      "temperature": 1.0,
-      "soil_moisture": 0.93,
-      "season_altitude": 1.0,
-      "shade": 0.5
-     }
-    },
-    {
-     "rank": 5,
-     "where": "15 km NE of Rizokarpaso",
-     "spot": 35,
-     "lat": 35.6582,
-     "lon": 34.5286,
-     "score": 79,
-     "why": "Good: 32 mm soaking rain 7-20 days ago; soil wetter than 100% of last season; 19 °C average this week; 57 mm rain in 30 days. Weak: shady slopes and valleys.",
-     "mushroom_clock": "Soaking rain 17 days ago. Window OPEN — about 3 more days.",
-     "trees": {
-      "Calabrian pine (likely)": 0.99
-     },
-     "altitude_m": [
-      25,
-      150
-     ],
-     "inputs": {
-      "rain_30d_mm": 57.3,
-      "pulse_mm": 31.5,
-      "t7_mean_c": 19.4,
-      "soil_percentile": 100.0,
-      "frost_days": 0.0,
-      "rain3_max_mm": 31.5
-     },
-     "factors_0_to_1": {
-      "rain_total": 0.62,
-      "rain_pulse": 1.0,
-      "temperature": 0.77,
-      "soil_moisture": 1.0,
-      "season_altitude": 1.0,
-      "shade": 0.28
-     }
-    }
-   ],
-   "species": {
-    "lde": {
-     "label": "good conditions for Lactarius deliciosus (red pine mushroom) habitat",
-     "in_season": true,
-     "season": "Oct-Feb",
-     "top_zones": [
-      {
-       "where": "2 km W of Dierona",
-       "spot": 623,
-       "lat": 34.8282,
-       "lon": 33.0876,
-       "score": 88
-      },
-      {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 81
-      },
-      {
-       "where": "4 km E of Statos-Agios Photios",
-       "spot": 552,
-       "lat": 34.876,
-       "lon": 32.6625,
-       "score": 80
-      }
-     ]
-    },
     "lsa": {
      "label": "good conditions for Lactarius sanguifluus (bloody milk cap) habitat",
      "in_season": true,
      "season": "Sep-Nov",
      "top_zones": [
       {
+       "where": "2 km N of Moniatis",
+       "spot": 857,
+       "lat": 34.8911,
+       "lon": 32.8952,
+       "score": 77
+      },
+      {
        "where": "Lagoudera",
        "spot": 646,
        "lat": 34.9591,
        "lon": 33.0205,
-       "score": 77
-      },
-      {
-       "where": "2 km SW of Amiantos",
-       "spot": 661,
-       "lat": 34.9097,
-       "lon": 32.9124,
-       "score": 76
+       "score": 74
       },
       {
        "where": "8 km W of Tsakistra",
@@ -879,17 +593,17 @@
        "score": 88
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 81
-      },
-      {
        "where": "1 km N of Omodos",
        "spot": 870,
        "lat": 34.8602,
        "lon": 32.8043,
+       "score": 81
+      },
+      {
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
        "score": 80
       }
      ]
@@ -913,17 +627,335 @@
        "score": 88
       },
       {
+       "where": "15 km NE of Rizokarpaso",
+       "spot": 35,
+       "lat": 35.6582,
+       "lon": 34.5286,
+       "score": 83
+      },
+      {
        "where": "1 km N of Platanistasa",
        "spot": 824,
        "lat": 34.9559,
        "lon": 33.0488,
-       "score": 82
+       "score": 81
+      }
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "weekday": "Sunday",
+   "confidence": "high",
+   "island": {
+    "median_score": 58,
+    "zones_70_plus": 251,
+    "zones_total": 706
+   },
+   "top_zones": [
+    {
+     "rank": 1,
+     "where": "2 km W of Dierona",
+     "spot": 623,
+     "lat": 34.8282,
+     "lon": 33.0876,
+     "score": 88,
+     "why": "Good: 25 mm soaking rain 7-20 days ago; 12 °C average this week; soil wetter than 85% of last season; 62 mm rain in 30 days. Weak: shady slopes and valleys.",
+     "mushroom_clock": "Soaking rain 8 days ago. Window opens in 10 days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.96
+     },
+     "altitude_m": [
+      469,
+      852
+     ],
+     "inputs": {
+      "rain_30d_mm": 61.9,
+      "pulse_mm": 25.3,
+      "t7_mean_c": 11.9,
+      "soil_percentile": 84.5,
+      "frost_days": 0.0,
+      "rain3_max_mm": 25.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 8.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.7,
+      "rain_pulse": 1.0,
+      "temperature": 1.0,
+      "soil_moisture": 1.0,
+      "season_altitude": 1.0,
+      "shade": 0.39
+     }
+    },
+    {
+     "rank": 2,
+     "where": "4 km E of Statos-Agios Photios",
+     "spot": 552,
+     "lat": 34.876,
+     "lon": 32.6625,
+     "score": 80,
+     "why": "Good: 15 °C average this week; 26 mm soaking rain 7-20 days ago; soil wetter than 77% of last season. Weak: 42 mm rain in 30 days; shady slopes and valleys.",
+     "mushroom_clock": "Soaking rain 17 days ago. Window OPEN — about 3 more days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.58,
+      "Other broadleaf": 0.42
+     },
+     "altitude_m": [
+      277,
+      533
+     ],
+     "inputs": {
+      "rain_30d_mm": 41.9,
+      "pulse_mm": 25.8,
+      "t7_mean_c": 14.5,
+      "soil_percentile": 76.8,
+      "frost_days": 0.0,
+      "rain3_max_mm": 25.8,
+      "gate_pct": 100.0,
+      "rain3_age_d": 17.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.37,
+      "rain_pulse": 0.98,
+      "temperature": 1.0,
+      "soil_moisture": 0.95,
+      "season_altitude": 1.0,
+      "shade": 0.37
+     }
+    },
+    {
+     "rank": 3,
+     "where": "1 km N of Omodos",
+     "spot": 870,
+     "lat": 34.8602,
+     "lon": 32.8043,
+     "score": 80,
+     "why": "Good: 12 °C average this week; soil wetter than 76% of last season; 23 mm soaking rain 7-20 days ago. Weak: 42 mm rain in 30 days.",
+     "mushroom_clock": "Soaking rain 15 days ago. Window OPEN — about 5 more days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.18,
+      "Golden oak (likely)": 0.18,
+      "Other broadleaf": 0.41,
+      "Burned forest, recent fire": 0.24
+     },
+     "altitude_m": [
+      830,
+      990
+     ],
+     "inputs": {
+      "rain_30d_mm": 42.5,
+      "pulse_mm": 23.3,
+      "t7_mean_c": 12.3,
+      "soil_percentile": 76.0,
+      "frost_days": 0.0,
+      "rain3_max_mm": 23.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 16.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.37,
+      "rain_pulse": 0.88,
+      "temperature": 1.0,
+      "soil_moisture": 0.93,
+      "season_altitude": 1.0,
+      "shade": 0.5
+     }
+    },
+    {
+     "rank": 4,
+     "where": "15 km NE of Rizokarpaso",
+     "spot": 35,
+     "lat": 35.6582,
+     "lon": 34.5286,
+     "score": 79,
+     "why": "Good: 32 mm soaking rain 7-20 days ago; soil wetter than 100% of last season; 19 °C average this week; 57 mm rain in 30 days. Weak: shady slopes and valleys.",
+     "mushroom_clock": "Soaking rain 17 days ago. Window OPEN — about 3 more days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.99
+     },
+     "altitude_m": [
+      25,
+      150
+     ],
+     "inputs": {
+      "rain_30d_mm": 57.3,
+      "pulse_mm": 31.5,
+      "t7_mean_c": 19.4,
+      "soil_percentile": 100.0,
+      "frost_days": 0.0,
+      "rain3_max_mm": 31.5,
+      "gate_pct": 100.0,
+      "rain3_age_d": 17.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.62,
+      "rain_pulse": 1.0,
+      "temperature": 0.77,
+      "soil_moisture": 1.0,
+      "season_altitude": 1.0,
+      "shade": 0.28
+     }
+    },
+    {
+     "rank": 5,
+     "where": "1 km SE of Pelathousa",
+     "spot": 433,
+     "lat": 35.0192,
+     "lon": 32.4808,
+     "score": 79,
+     "why": "Good: 15 °C average this week; soil wetter than 81% of last season; 23 mm soaking rain 7-20 days ago. Weak: 41 mm rain in 30 days.",
+     "mushroom_clock": "Soaking rain 15 days ago. Window OPEN — about 5 more days.",
+     "trees": {
+      "Calabrian pine (likely)": 0.6,
+      "Other broadleaf": 0.28
+     },
+     "altitude_m": [
+      133,
+      455
+     ],
+     "inputs": {
+      "rain_30d_mm": 41.1,
+      "pulse_mm": 23.0,
+      "t7_mean_c": 14.7,
+      "soil_percentile": 81.0,
+      "frost_days": 0.0,
+      "rain3_max_mm": 22.4,
+      "gate_pct": 100.0,
+      "rain3_age_d": 17.0
+     },
+     "factors_0_to_1": {
+      "rain_total": 0.35,
+      "rain_pulse": 0.86,
+      "temperature": 1.0,
+      "soil_moisture": 0.98,
+      "season_altitude": 1.0,
+      "shade": 0.43
+     }
+    }
+   ],
+   "species": {
+    "lde": {
+     "label": "good conditions for Lactarius deliciosus (red pine mushroom) habitat",
+     "in_season": true,
+     "season": "Oct-Feb",
+     "top_zones": [
+      {
+       "where": "2 km W of Dierona",
+       "spot": 623,
+       "lat": 34.8282,
+       "lon": 33.0876,
+       "score": 88
       },
       {
        "where": "4 km E of Statos-Agios Photios",
        "spot": 552,
        "lat": 34.876,
        "lon": 32.6625,
+       "score": 80
+      },
+      {
+       "where": "1 km N of Omodos",
+       "spot": 870,
+       "lat": 34.8602,
+       "lon": 32.8043,
+       "score": 80
+      }
+     ]
+    },
+    "lsa": {
+     "label": "good conditions for Lactarius sanguifluus (bloody milk cap) habitat",
+     "in_season": true,
+     "season": "Sep-Nov",
+     "top_zones": [
+      {
+       "where": "2 km SW of Amiantos",
+       "spot": 661,
+       "lat": 34.9097,
+       "lon": 32.9124,
+       "score": 76
+      },
+      {
+       "where": "Lagoudera",
+       "spot": 646,
+       "lat": 34.9591,
+       "lon": 33.0205,
+       "score": 73
+      },
+      {
+       "where": "8 km W of Tsakistra",
+       "spot": 475,
+       "lat": 35.0223,
+       "lon": 32.6401,
+       "score": 73
+      }
+     ]
+    },
+    "rde": {
+     "label": "good conditions for Russula delica (milk-white brittlegill) habitat",
+     "in_season": false,
+     "season": "Sep-Oct",
+     "top_zones": []
+    },
+    "tca": {
+     "label": "good conditions for Tricholoma caligatum (matsutake) habitat",
+     "in_season": true,
+     "season": "Nov-Jan",
+     "top_zones": [
+      {
+       "where": "2 km W of Dierona",
+       "spot": 623,
+       "lat": 34.8282,
+       "lon": 33.0876,
+       "score": 88
+      },
+      {
+       "where": "1 km N of Omodos",
+       "spot": 870,
+       "lat": 34.8602,
+       "lon": 32.8043,
+       "score": 80
+      },
+      {
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 79
+      }
+     ]
+    },
+    "mor": {
+     "label": "good conditions for Morchella esculenta / elata (morels) habitat",
+     "in_season": false,
+     "season": "Feb-Apr",
+     "top_zones": []
+    },
+    "slu": {
+     "label": "good conditions for Suillus luteus (slippery Jack) habitat",
+     "in_season": true,
+     "season": "Oct-Feb",
+     "top_zones": [
+      {
+       "where": "2 km W of Dierona",
+       "spot": 623,
+       "lat": 34.8282,
+       "lon": 33.0876,
+       "score": 88
+      },
+      {
+       "where": "4 km E of Statos-Agios Photios",
+       "spot": 552,
+       "lat": 34.876,
+       "lon": 32.6625,
+       "score": 80
+      },
+      {
+       "where": "1 km N of Platanistasa",
+       "spot": 824,
+       "lat": 34.9559,
+       "lon": 33.0488,
        "score": 80
       }
      ]
@@ -936,7 +968,7 @@
    "confidence": "medium",
    "island": {
     "median_score": 59,
-    "zones_70_plus": 259,
+    "zones_70_plus": 248,
     "zones_total": 706
    },
    "top_zones": [
@@ -962,7 +994,9 @@
       "t7_mean_c": 12.6,
       "soil_percentile": 81.5,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.3
+      "rain3_max_mm": 25.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 9.0
      },
      "factors_0_to_1": {
       "rain_total": 0.68,
@@ -975,36 +1009,38 @@
     },
     {
      "rank": 2,
-     "where": "1 km N of Platanistasa",
-     "spot": 824,
-     "lat": 34.9559,
-     "lon": 33.0488,
-     "score": 82,
-     "why": "Good: 12 °C average this week; soil wetter than 81% of last season; 22 mm soaking rain 7-20 days ago. Weak: shady slopes and valleys.",
+     "where": "Kannavia",
+     "spot": 774,
+     "lat": 34.9841,
+     "lon": 32.9809,
+     "score": 79,
+     "why": "Good: 13 °C average this week; soil wetter than 76% of last season; 21 mm soaking rain 7-20 days ago.",
      "mushroom_clock": "Soaking rain 9 days ago. Window opens in 8 days.",
      "trees": {
-      "Calabrian pine (likely)": 0.63,
-      "Golden oak (likely)": 0.37
+      "Calabrian pine (likely)": 0.79,
+      "Golden oak (likely)": 0.21
      },
      "altitude_m": [
-      724,
-      1130
+      689,
+      961
      ],
      "inputs": {
-      "rain_30d_mm": 52.5,
-      "pulse_mm": 22.5,
-      "t7_mean_c": 12.0,
-      "soil_percentile": 81.0,
+      "rain_30d_mm": 53.1,
+      "pulse_mm": 20.7,
+      "t7_mean_c": 12.9,
+      "soil_percentile": 75.8,
       "frost_days": 0.0,
-      "rain3_max_mm": 22.5
+      "rain3_max_mm": 20.5,
+      "gate_pct": 98.7,
+      "rain3_age_d": 9.0
      },
      "factors_0_to_1": {
-      "rain_total": 0.54,
-      "rain_pulse": 0.83,
+      "rain_total": 0.55,
+      "rain_pulse": 0.71,
       "temperature": 1.0,
-      "soil_moisture": 0.96,
+      "soil_moisture": 0.92,
       "season_altitude": 1.0,
-      "shade": 0.4
+      "shade": 0.47
      }
     },
     {
@@ -1030,7 +1066,9 @@
       "t7_mean_c": 14.9,
       "soil_percentile": 75.5,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.8
+      "rain3_max_mm": 25.8,
+      "gate_pct": 100.0,
+      "rain3_age_d": 18.0
      },
      "factors_0_to_1": {
       "rain_total": 0.31,
@@ -1066,7 +1104,9 @@
       "t7_mean_c": 12.8,
       "soil_percentile": 73.9,
       "frost_days": 0.0,
-      "rain3_max_mm": 23.3
+      "rain3_max_mm": 23.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 17.0
      },
      "factors_0_to_1": {
       "rain_total": 0.31,
@@ -1099,7 +1139,9 @@
       "t7_mean_c": 16.1,
       "soil_percentile": 80.6,
       "frost_days": 0.0,
-      "rain3_max_mm": 22.7
+      "rain3_max_mm": 22.7,
+      "gate_pct": 100.0,
+      "rain3_age_d": 18.0
      },
      "factors_0_to_1": {
       "rain_total": 0.34,
@@ -1125,11 +1167,11 @@
        "score": 88
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 79
       },
       {
        "where": "4 km E of Statos-Agios Photios",
@@ -1146,25 +1188,25 @@
      "season": "Sep-Nov",
      "top_zones": [
       {
+       "where": "2 km SW of Amiantos",
+       "spot": 661,
+       "lat": 34.9097,
+       "lon": 32.9124,
+       "score": 75
+      },
+      {
        "where": "Lagoudera",
        "spot": 646,
        "lat": 34.9591,
        "lon": 33.0205,
-       "score": 77
-      },
-      {
-       "where": "1 km NW of Karvounas",
-       "spot": 788,
-       "lat": 34.9501,
-       "lon": 32.9182,
-       "score": 75
-      },
-      {
-       "where": "Fini",
-       "spot": 846,
-       "lat": 34.8975,
-       "lon": 32.8385,
        "score": 73
+      },
+      {
+       "where": "8 km W of Tsakistra",
+       "spot": 475,
+       "lat": 35.0223,
+       "lon": 32.6401,
+       "score": 72
       }
      ]
     },
@@ -1187,11 +1229,11 @@
        "score": 87
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 79
       },
       {
        "where": "1 km N of Omodos",
@@ -1225,7 +1267,7 @@
        "spot": 824,
        "lat": 34.9559,
        "lon": 33.0488,
-       "score": 82
+       "score": 80
       },
       {
        "where": "4 km E of Statos-Agios Photios",
@@ -1243,8 +1285,8 @@
    "weekday": "Tuesday",
    "confidence": "medium",
    "island": {
-    "median_score": 58,
-    "zones_70_plus": 251,
+    "median_score": 57,
+    "zones_70_plus": 242,
     "zones_total": 706
    },
    "top_zones": [
@@ -1270,7 +1312,9 @@
       "t7_mean_c": 13.1,
       "soil_percentile": 80.3,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.3
+      "rain3_max_mm": 25.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 10.0
      },
      "factors_0_to_1": {
       "rain_total": 0.7,
@@ -1283,36 +1327,38 @@
     },
     {
      "rank": 2,
-     "where": "1 km N of Platanistasa",
-     "spot": 824,
-     "lat": 34.9559,
-     "lon": 33.0488,
-     "score": 82,
-     "why": "Good: 13 °C average this week; soil wetter than 81% of last season; 22 mm soaking rain 7-20 days ago. Weak: shady slopes and valleys.",
+     "where": "Kannavia",
+     "spot": 774,
+     "lat": 34.9841,
+     "lon": 32.9809,
+     "score": 80,
+     "why": "Good: 13 °C average this week; soil wetter than 78% of last season; 21 mm soaking rain 7-20 days ago.",
      "mushroom_clock": "Soaking rain 10 days ago. Window opens in 7 days.",
      "trees": {
-      "Calabrian pine (likely)": 0.63,
-      "Golden oak (likely)": 0.37
+      "Calabrian pine (likely)": 0.79,
+      "Golden oak (likely)": 0.21
      },
      "altitude_m": [
-      724,
-      1130
+      689,
+      961
      ],
      "inputs": {
-      "rain_30d_mm": 52.8,
-      "pulse_mm": 22.4,
-      "t7_mean_c": 12.5,
-      "soil_percentile": 80.9,
+      "rain_30d_mm": 54.2,
+      "pulse_mm": 20.5,
+      "t7_mean_c": 13.4,
+      "soil_percentile": 77.6,
       "frost_days": 0.0,
-      "rain3_max_mm": 22.5
+      "rain3_max_mm": 20.5,
+      "gate_pct": 98.7,
+      "rain3_age_d": 10.0
      },
      "factors_0_to_1": {
-      "rain_total": 0.55,
-      "rain_pulse": 0.83,
+      "rain_total": 0.57,
+      "rain_pulse": 0.7,
       "temperature": 1.0,
-      "soil_moisture": 0.96,
+      "soil_moisture": 0.95,
       "season_altitude": 1.0,
-      "shade": 0.4
+      "shade": 0.47
      }
     },
     {
@@ -1338,7 +1384,9 @@
       "t7_mean_c": 15.3,
       "soil_percentile": 75.0,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.8
+      "rain3_max_mm": 25.8,
+      "gate_pct": 100.0,
+      "rain3_age_d": 19.0
      },
      "factors_0_to_1": {
       "rain_total": 0.31,
@@ -1374,7 +1422,9 @@
       "t7_mean_c": 13.2,
       "soil_percentile": 72.9,
       "frost_days": 0.0,
-      "rain3_max_mm": 23.3
+      "rain3_max_mm": 23.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 18.0
      },
      "factors_0_to_1": {
       "rain_total": 0.32,
@@ -1408,7 +1458,9 @@
       "t7_mean_c": 15.7,
       "soil_percentile": 81.1,
       "frost_days": 0.0,
-      "rain3_max_mm": 23.0
+      "rain3_max_mm": 22.4,
+      "gate_pct": 100.0,
+      "rain3_age_d": 19.0
      },
      "factors_0_to_1": {
       "rain_total": 0.29,
@@ -1434,11 +1486,11 @@
        "score": 88
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 80
       },
       {
        "where": "4 km E of Statos-Agios Photios",
@@ -1455,25 +1507,25 @@
      "season": "Sep-Nov",
      "top_zones": [
       {
+       "where": "2 km SW of Amiantos",
+       "spot": 661,
+       "lat": 34.9097,
+       "lon": 32.9124,
+       "score": 74
+      },
+      {
        "where": "Lagoudera",
        "spot": 646,
        "lat": 34.9591,
        "lon": 33.0205,
-       "score": 77
-      },
-      {
-       "where": "1 km NW of Karvounas",
-       "spot": 788,
-       "lat": 34.9501,
-       "lon": 32.9182,
-       "score": 76
+       "score": 73
       },
       {
        "where": "8 km W of Tsakistra",
        "spot": 475,
        "lat": 35.0223,
        "lon": 32.6401,
-       "score": 73
+       "score": 72
       }
      ]
     },
@@ -1496,11 +1548,11 @@
        "score": 87
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 80
       },
       {
        "where": "1 km N of Omodos",
@@ -1534,7 +1586,7 @@
        "spot": 824,
        "lat": 34.9559,
        "lon": 33.0488,
-       "score": 82
+       "score": 80
       },
       {
        "where": "4 km E of Statos-Agios Photios",
@@ -1552,8 +1604,8 @@
    "weekday": "Wednesday",
    "confidence": "low",
    "island": {
-    "median_score": 57,
-    "zones_70_plus": 207,
+    "median_score": 56,
+    "zones_70_plus": 201,
     "zones_total": 706
    },
    "top_zones": [
@@ -1579,7 +1631,9 @@
       "t7_mean_c": 13.4,
       "soil_percentile": 79.4,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.3
+      "rain3_max_mm": 25.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 11.0
      },
      "factors_0_to_1": {
       "rain_total": 0.7,
@@ -1592,36 +1646,38 @@
     },
     {
      "rank": 2,
-     "where": "1 km N of Platanistasa",
-     "spot": 824,
-     "lat": 34.9559,
-     "lon": 33.0488,
-     "score": 82,
-     "why": "Good: 13 °C average this week; soil wetter than 81% of last season; 22 mm soaking rain 7-20 days ago. Weak: shady slopes and valleys.",
+     "where": "Kannavia",
+     "spot": 774,
+     "lat": 34.9841,
+     "lon": 32.9809,
+     "score": 80,
+     "why": "Good: 14 °C average this week; soil wetter than 78% of last season; 21 mm soaking rain 7-20 days ago.",
      "mushroom_clock": "Soaking rain 11 days ago. Window opens in 6 days.",
      "trees": {
-      "Calabrian pine (likely)": 0.63,
-      "Golden oak (likely)": 0.37
+      "Calabrian pine (likely)": 0.79,
+      "Golden oak (likely)": 0.21
      },
      "altitude_m": [
-      724,
-      1130
+      689,
+      961
      ],
      "inputs": {
-      "rain_30d_mm": 53.6,
-      "pulse_mm": 22.4,
-      "t7_mean_c": 12.7,
-      "soil_percentile": 80.5,
+      "rain_30d_mm": 55.3,
+      "pulse_mm": 20.5,
+      "t7_mean_c": 13.5,
+      "soil_percentile": 78.3,
       "frost_days": 0.0,
-      "rain3_max_mm": 22.5
+      "rain3_max_mm": 20.5,
+      "gate_pct": 98.7,
+      "rain3_age_d": 11.0
      },
      "factors_0_to_1": {
-      "rain_total": 0.56,
-      "rain_pulse": 0.83,
+      "rain_total": 0.59,
+      "rain_pulse": 0.7,
       "temperature": 1.0,
       "soil_moisture": 0.96,
       "season_altitude": 1.0,
-      "shade": 0.4
+      "shade": 0.47
      }
     },
     {
@@ -1649,7 +1705,9 @@
       "t7_mean_c": 13.4,
       "soil_percentile": 72.8,
       "frost_days": 0.0,
-      "rain3_max_mm": 23.3
+      "rain3_max_mm": 23.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 19.0
      },
      "factors_0_to_1": {
       "rain_total": 0.33,
@@ -1682,7 +1740,9 @@
       "t7_mean_c": 15.8,
       "soil_percentile": 90.2,
       "frost_days": 0.0,
-      "rain3_max_mm": 21.9
+      "rain3_max_mm": 21.9,
+      "gate_pct": 100.0,
+      "rain3_age_d": 18.0
      },
      "factors_0_to_1": {
       "rain_total": 0.31,
@@ -1715,7 +1775,9 @@
       "t7_mean_c": 13.2,
       "soil_percentile": 87.5,
       "frost_days": 0.0,
-      "rain3_max_mm": 20.0
+      "rain3_max_mm": 20.0,
+      "gate_pct": 99.6,
+      "rain3_age_d": 11.0
      },
      "factors_0_to_1": {
       "rain_total": 0.41,
@@ -1741,11 +1803,11 @@
        "score": 88
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 80
       },
       {
        "where": "1 km N of Omodos",
@@ -1762,24 +1824,24 @@
      "season": "Sep-Nov",
      "top_zones": [
       {
+       "where": "2 km S of Kakopetria",
+       "spot": 792,
+       "lat": 34.9719,
+       "lon": 32.907,
+       "score": 73
+      },
+      {
        "where": "Lagoudera",
        "spot": 646,
        "lat": 34.9591,
        "lon": 33.0205,
-       "score": 77
+       "score": 73
       },
       {
-       "where": "1 km NW of Karvounas",
-       "spot": 788,
-       "lat": 34.9501,
-       "lon": 32.9182,
-       "score": 76
-      },
-      {
-       "where": "8 km W of Tsakistra",
-       "spot": 475,
-       "lat": 35.0223,
-       "lon": 32.6401,
+       "where": "2 km N of Moniatis",
+       "spot": 857,
+       "lat": 34.8911,
+       "lon": 32.8952,
        "score": 72
       }
      ]
@@ -1803,11 +1865,11 @@
        "score": 87
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 82
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 80
       },
       {
        "where": "1 km N of Omodos",
@@ -1841,7 +1903,7 @@
        "spot": 824,
        "lat": 34.9559,
        "lon": 33.0488,
-       "score": 83
+       "score": 80
       },
       {
        "where": "2 km E of Kinousa",
@@ -1859,8 +1921,8 @@
    "weekday": "Thursday",
    "confidence": "low",
    "island": {
-    "median_score": 58,
-    "zones_70_plus": 66,
+    "median_score": 54,
+    "zones_70_plus": 50,
     "zones_total": 706
    },
    "top_zones": [
@@ -1886,7 +1948,9 @@
       "t7_mean_c": 13.3,
       "soil_percentile": 94.1,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.3
+      "rain3_max_mm": 25.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 12.0
      },
      "factors_0_to_1": {
       "rain_total": 0.9,
@@ -1903,9 +1967,9 @@
      "spot": 774,
      "lat": 34.9841,
      "lon": 32.9809,
-     "score": 84,
+     "score": 83,
      "why": "Good: 13 °C average this week; soil wetter than 85% of last season; 62 mm rain in 30 days; 21 mm soaking rain 7-20 days ago.",
-     "mushroom_clock": "No soaking rain (20 mm+) yet this season. Fruiting window closed.",
+     "mushroom_clock": "Soaking rain 12 days ago. Window opens in 5 days.",
      "trees": {
       "Calabrian pine (likely)": 0.79,
       "Golden oak (likely)": 0.21
@@ -1920,7 +1984,9 @@
       "t7_mean_c": 13.4,
       "soil_percentile": 85.2,
       "frost_days": 0.0,
-      "rain3_max_mm": 20.7
+      "rain3_max_mm": 20.5,
+      "gate_pct": 98.7,
+      "rain3_age_d": 12.0
      },
      "factors_0_to_1": {
       "rain_total": 0.7,
@@ -1953,7 +2019,9 @@
       "t7_mean_c": 13.1,
       "soil_percentile": 92.3,
       "frost_days": 0.0,
-      "rain3_max_mm": 20.0
+      "rain3_max_mm": 20.0,
+      "gate_pct": 99.6,
+      "rain3_age_d": 12.0
      },
      "factors_0_to_1": {
       "rain_total": 0.5,
@@ -1970,9 +2038,9 @@
      "spot": 825,
      "lat": 34.9526,
      "lon": 33.0771,
-     "score": 77,
+     "score": 74,
      "why": "Good: 13 °C average this week; soil wetter than 76% of last season; 58 mm rain in 30 days.",
-     "mushroom_clock": "Soaking rain 12 days ago. Window opens in 5 days.",
+     "mushroom_clock": "Soaking rain 12 days ago. Window OPEN — about 8 more days.",
      "trees": {
       "Calabrian pine (likely)": 0.81,
       "Golden oak (likely)": 0.19
@@ -1987,7 +2055,9 @@
       "t7_mean_c": 12.9,
       "soil_percentile": 75.8,
       "frost_days": 0.0,
-      "rain3_max_mm": 20.0
+      "rain3_max_mm": 18.9,
+      "gate_pct": 92.5,
+      "rain3_age_d": 12.4
      },
      "factors_0_to_1": {
       "rain_total": 0.64,
@@ -2000,36 +2070,38 @@
     },
     {
      "rank": 5,
-     "where": "3 km N of Troodos",
-     "spot": 885,
-     "lat": 34.9533,
-     "lon": 32.8899,
-     "score": 75,
-     "why": "Good: 10 °C average this week; soil wetter than 78% of last season; 58 mm rain in 30 days. Weak: 15 mm soaking rain 7-20 days ago.",
+     "where": "3 km S of Ora",
+     "spot": 664,
+     "lat": 34.8371,
+     "lon": 33.1896,
+     "score": 73,
+     "why": "Good: 15 °C average this week; soil wetter than 71% of last season; 63 mm rain in 30 days. Weak: shady slopes and valleys.",
      "mushroom_clock": "No soaking rain (20 mm+) yet this season. Fruiting window closed.",
      "trees": {
-      "Calabrian pine (likely)": 0.21,
-      "Troodos black pine (likely)": 0.79
+      "Calabrian pine (likely)": 0.87,
+      "Burned forest": 0.13
      },
      "altitude_m": [
-      987,
-      1704
+      341,
+      501
      ],
      "inputs": {
-      "rain_30d_mm": 58.2,
-      "pulse_mm": 14.9,
-      "t7_mean_c": 10.1,
-      "soil_percentile": 77.5,
+      "rain_30d_mm": 62.6,
+      "pulse_mm": 18.5,
+      "t7_mean_c": 15.2,
+      "soil_percentile": 71.0,
       "frost_days": 0.0,
-      "rain3_max_mm": 19.7
+      "rain3_max_mm": 18.5,
+      "gate_pct": 92.3,
+      "rain3_age_d": 12.0
      },
      "factors_0_to_1": {
-      "rain_total": 0.64,
-      "rain_pulse": 0.32,
+      "rain_total": 0.71,
+      "rain_pulse": 0.56,
       "temperature": 1.0,
-      "soil_moisture": 0.96,
+      "soil_moisture": 0.85,
       "season_altitude": 1.0,
-      "shade": 0.47
+      "shade": 0.35
      }
     }
    ],
@@ -2051,7 +2123,7 @@
        "spot": 774,
        "lat": 34.9841,
        "lon": 32.9809,
-       "score": 84
+       "score": 83
       },
       {
        "where": "2 km E of Gourri",
@@ -2072,21 +2144,21 @@
        "spot": 792,
        "lat": 34.9719,
        "lon": 32.907,
-       "score": 79
+       "score": 77
       },
       {
        "where": "Lagoudera",
        "spot": 646,
        "lat": 34.9591,
        "lon": 33.0205,
-       "score": 78
+       "score": 74
       },
       {
-       "where": "3 km NE of Ayios Konstantinos",
-       "spot": 651,
-       "lat": 34.8904,
-       "lon": 33.0824,
-       "score": 72
+       "where": "2 km N of Moniatis",
+       "spot": 857,
+       "lat": 34.8911,
+       "lon": 32.8952,
+       "score": 69
       }
      ]
     },
@@ -2113,7 +2185,7 @@
        "spot": 774,
        "lat": 34.9841,
        "lon": 32.9809,
-       "score": 84
+       "score": 83
       },
       {
        "where": "2 km E of Gourri",
@@ -2143,11 +2215,11 @@
        "score": 92
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 84
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 83
       },
       {
        "where": "2 km E of Gourri",
@@ -2165,8 +2237,8 @@
    "weekday": "Friday",
    "confidence": "low",
    "island": {
-    "median_score": 59,
-    "zones_70_plus": 90,
+    "median_score": 52,
+    "zones_70_plus": 68,
     "zones_total": 706
    },
    "top_zones": [
@@ -2192,7 +2264,9 @@
       "t7_mean_c": 13.2,
       "soil_percentile": 97.1,
       "frost_days": 0.0,
-      "rain3_max_mm": 25.3
+      "rain3_max_mm": 25.3,
+      "gate_pct": 100.0,
+      "rain3_age_d": 13.0
      },
      "factors_0_to_1": {
       "rain_total": 0.89,
@@ -2209,9 +2283,9 @@
      "spot": 774,
      "lat": 34.9841,
      "lon": 32.9809,
-     "score": 84,
+     "score": 83,
      "why": "Good: 13 °C average this week; soil wetter than 90% of last season; 62 mm rain in 30 days; 21 mm soaking rain 7-20 days ago.",
-     "mushroom_clock": "No soaking rain (20 mm+) yet this season. Fruiting window closed.",
+     "mushroom_clock": "Soaking rain 13 days ago. Window opens in 4 days.",
      "trees": {
       "Calabrian pine (likely)": 0.79,
       "Golden oak (likely)": 0.21
@@ -2226,7 +2300,9 @@
       "t7_mean_c": 13.1,
       "soil_percentile": 89.8,
       "frost_days": 0.0,
-      "rain3_max_mm": 20.7
+      "rain3_max_mm": 20.5,
+      "gate_pct": 98.7,
+      "rain3_age_d": 13.0
      },
      "factors_0_to_1": {
       "rain_total": 0.7,
@@ -2259,7 +2335,9 @@
       "t7_mean_c": 13.0,
       "soil_percentile": 94.1,
       "frost_days": 0.0,
-      "rain3_max_mm": 20.0
+      "rain3_max_mm": 20.0,
+      "gate_pct": 99.6,
+      "rain3_age_d": 13.0
      },
      "factors_0_to_1": {
       "rain_total": 0.5,
@@ -2276,9 +2354,9 @@
      "spot": 825,
      "lat": 34.9526,
      "lon": 33.0771,
-     "score": 78,
+     "score": 75,
      "why": "Good: 13 °C average this week; soil wetter than 82% of last season; 58 mm rain in 30 days.",
-     "mushroom_clock": "Soaking rain 13 days ago. Window opens in 4 days.",
+     "mushroom_clock": "Soaking rain 13 days ago. Window OPEN — about 7 more days.",
      "trees": {
       "Calabrian pine (likely)": 0.81,
       "Golden oak (likely)": 0.19
@@ -2293,7 +2371,9 @@
       "t7_mean_c": 12.8,
       "soil_percentile": 81.5,
       "frost_days": 0.0,
-      "rain3_max_mm": 20.0
+      "rain3_max_mm": 18.9,
+      "gate_pct": 92.5,
+      "rain3_age_d": 13.4
      },
      "factors_0_to_1": {
       "rain_total": 0.64,
@@ -2306,36 +2386,38 @@
     },
     {
      "rank": 5,
-     "where": "3 km N of Troodos",
-     "spot": 885,
-     "lat": 34.9533,
-     "lon": 32.8899,
+     "where": "3 km S of Ora",
+     "spot": 664,
+     "lat": 34.8371,
+     "lon": 33.1896,
      "score": 75,
-     "why": "Good: soil wetter than 86% of last season; 10 °C average this week; 58 mm rain in 30 days. Weak: 15 mm soaking rain 7-20 days ago.",
+     "why": "Good: 15 °C average this week; soil wetter than 82% of last season; 62 mm rain in 30 days. Weak: shady slopes and valleys.",
      "mushroom_clock": "No soaking rain (20 mm+) yet this season. Fruiting window closed.",
      "trees": {
-      "Calabrian pine (likely)": 0.21,
-      "Troodos black pine (likely)": 0.79
+      "Calabrian pine (likely)": 0.87,
+      "Burned forest": 0.13
      },
      "altitude_m": [
-      987,
-      1704
+      341,
+      501
      ],
      "inputs": {
-      "rain_30d_mm": 58.0,
-      "pulse_mm": 14.9,
-      "t7_mean_c": 9.8,
-      "soil_percentile": 86.1,
+      "rain_30d_mm": 62.2,
+      "pulse_mm": 18.5,
+      "t7_mean_c": 15.1,
+      "soil_percentile": 81.8,
       "frost_days": 0.0,
-      "rain3_max_mm": 19.7
+      "rain3_max_mm": 18.5,
+      "gate_pct": 92.3,
+      "rain3_age_d": 13.0
      },
      "factors_0_to_1": {
-      "rain_total": 0.63,
-      "rain_pulse": 0.32,
-      "temperature": 0.99,
+      "rain_total": 0.7,
+      "rain_pulse": 0.56,
+      "temperature": 1.0,
       "soil_moisture": 1.0,
       "season_altitude": 1.0,
-      "shade": 0.47
+      "shade": 0.35
      }
     }
    ],
@@ -2357,7 +2439,7 @@
        "spot": 774,
        "lat": 34.9841,
        "lon": 32.9809,
-       "score": 84
+       "score": 83
       },
       {
        "where": "2 km E of Gourri",
@@ -2378,21 +2460,21 @@
        "spot": 792,
        "lat": 34.9719,
        "lon": 32.907,
-       "score": 79
+       "score": 77
       },
       {
        "where": "Lagoudera",
        "spot": 646,
        "lat": 34.9591,
        "lon": 33.0205,
-       "score": 78
+       "score": 74
       },
       {
-       "where": "3 km NE of Ayios Konstantinos",
-       "spot": 651,
-       "lat": 34.8904,
-       "lon": 33.0824,
-       "score": 73
+       "where": "2 km N of Moniatis",
+       "spot": 857,
+       "lat": 34.8911,
+       "lon": 32.8952,
+       "score": 69
       }
      ]
     },
@@ -2419,7 +2501,7 @@
        "spot": 774,
        "lat": 34.9841,
        "lon": 32.9809,
-       "score": 84
+       "score": 83
       },
       {
        "where": "2 km E of Gourri",
@@ -2449,11 +2531,11 @@
        "score": 92
       },
       {
-       "where": "1 km N of Platanistasa",
-       "spot": 824,
-       "lat": 34.9559,
-       "lon": 33.0488,
-       "score": 84
+       "where": "Kannavia",
+       "spot": 774,
+       "lat": 34.9841,
+       "lon": 32.9809,
+       "score": 83
       },
       {
        "where": "2 km E of Gourri",
