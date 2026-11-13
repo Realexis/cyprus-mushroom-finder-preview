@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T15:45+00:00",
+ "generated_utc": "2026-11-13T15:54+00:00",
  "weather_run": "2026-11-13",
  "model": "ecmwf_ifs",
  "days": [
@@ -386,8 +386,8 @@
     ]
    },
    "slu": {
-    "english_name": "slippery Jack",
-    "latin_name": "Suillus luteus",
+    "english_name": "slippery Jacks",
+    "latin_name": "Suillus",
     "tier": "key",
     "rare": false,
     "group": "pine_partner",
