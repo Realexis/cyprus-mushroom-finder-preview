@@ -1,0 +1,80 @@
+{
+  "version": "V4",
+  "layers": [
+    {
+      "id": "general",
+      "label": "All forest (general map)",
+      "in_season": true
+    },
+    {
+      "id": "lde",
+      "label": "red pine mushroom · Lactarius deliciosus",
+      "in_season": true
+    },
+    {
+      "id": "tca",
+      "label": "matsutake · Tricholoma caligatum",
+      "in_season": true
+    },
+    {
+      "id": "slu",
+      "label": "slippery Jack · Suillus luteus",
+      "in_season": true
+    },
+    {
+      "id": "pfe",
+      "label": "fennel king oyster · Pleurotus eryngii var. ferulae",
+      "in_season": true
+    },
+    {
+      "id": "bae",
+      "label": "bronze bolete / cep · Boletus aereus / edulis",
+      "in_season": true
+    },
+    {
+      "id": "xer",
+      "label": "yellow and red cracked boletes · Xerocomus subtomentosus / chrysenteron group",
+      "in_season": true
+    },
+    {
+      "id": "lnu",
+      "label": "wood blewit · Lepista nuda",
+      "in_season": true
+    },
+    {
+      "id": "cci",
+      "label": "chanterelle · Cantharellus cibarius / subpruinosus · rare",
+      "in_season": true
+    },
+    {
+      "id": "lsa",
+      "label": "bloody milk cap · Lactarius sanguifluus · Sep-Oct",
+      "in_season": false
+    },
+    {
+      "id": "rde",
+      "label": "milk-white brittlegill · Russula delica · Sep-Oct",
+      "in_season": false
+    },
+    {
+      "id": "mor",
+      "label": "morels · Morchella esculenta / elata · Mar-Apr",
+      "in_season": false
+    },
+    {
+      "id": "cco",
+      "label": "shaggy ink cap · Coprinus comatus · Dec-Feb",
+      "in_season": false
+    },
+    {
+      "id": "aca",
+      "label": "field mushroom · Agaricus campestris · Dec-Mar",
+      "in_season": false
+    },
+    {
+      "id": "ter",
+      "label": "desert truffle · Terfezia · Mar-Apr · rare",
+      "in_season": false
+    }
+  ]
+}
