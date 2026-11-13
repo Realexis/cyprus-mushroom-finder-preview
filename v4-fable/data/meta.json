@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T16:03+00:00",
+ "generated_utc": "2026-11-13T16:15+00:00",
  "weather_run": "2026-11-13",
  "model": "ecmwf_ifs",
  "days": [
@@ -190,7 +190,7 @@
     "english_name": "bronze bolete / cep",
     "latin_name": "Boletus aereus / edulis",
     "tier": "more",
-    "rare": false,
+    "rare": true,
     "group": "oak_partner",
     "confidence": "low",
     "window_days": 10,

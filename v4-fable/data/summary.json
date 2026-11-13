@@ -4,7 +4,7 @@
  "how_to_read": "Scores 0-100 = how good GROWING CONDITIONS are in ~2 km forest zones. v0.3: for each species, habitat x water x temperature x mushroom clock x a season factor, multiplied, so one poor part makes the score poor. The general score is the best species here that is in season that day. It never says a mushroom is there, and never says anything about eating one. Nature reserves are closed and never listed. Each zone's confidence says how much its score needs rain that has not fallen yet: high = it holds on rain that already fell, medium = partly forecast rain, low = mostly forecast rain. Picking rules: no rakes or tools; pick by hand or knife; put the leaf litter back.",
  "emergency": "Poisoning: call 112. Cyprus Poison Centre: 1401. Do not wait for symptoms.",
  "weather_run": "2026-11-13",
- "generated_utc": "2026-11-13T16:03+00:00",
+ "generated_utc": "2026-11-13T16:15+00:00",
  "site": "https://realexis.github.io/cyprus-mushroom-finder/",
  "days": [
   {
