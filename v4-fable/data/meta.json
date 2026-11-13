@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-13T13:59+00:00",
+ "generated_utc": "2026-11-13T15:45+00:00",
  "weather_run": "2026-11-13",
  "model": "ecmwf_ifs",
  "days": [
@@ -331,6 +331,7 @@
     "autumn_rain_memory": false,
     "season_text": "Feb-Apr",
     "season_months": [
+     1,
      2,
      3,
      4,
