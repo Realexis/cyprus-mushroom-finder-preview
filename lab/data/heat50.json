@@ -1,0 +1,8 @@
+{
+ "weather_run": "2026-11-14",
+ "generated_utc": "2026-11-14T09:53+00:00",
+ "day": 0,
+ "shade_strength": 1.0,
+ "rule": "patch score = square score x (1 + shade_strength x (patch shade - square shade) / 100), kept in 0-100",
+ "note": "An educated guess (Shroomy Lab). Weather, soil and season are those of the 250 m square."
+}
